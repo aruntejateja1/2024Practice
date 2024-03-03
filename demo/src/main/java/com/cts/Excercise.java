@@ -6,6 +6,7 @@ public class Excercise {
 		// TODO Auto-generated method stub
 System.out.println("Excercise class");
 System.out.println("Excercise2 class");
+System.out.println("Excercise2 class");
 	}
 
 }
