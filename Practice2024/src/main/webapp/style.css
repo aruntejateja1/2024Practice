@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+h4{
+	color:yellow;
+}
+
+#arun{
+	background-color:blue;
+}
+
+
+
+.virat1{
+	color:green;
+}
+
+.arun1{
+	color:red;
+}
+
+/* *{
+background-color:red;
+} */
+
+@keyframes change-color {
+  from {
+  color: green;
+  }
+  to {
+  color: yellow;
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width-device-width,initial-scale=0.4">
+<title>Javascript Practice</title>
+</head>
+<body><!-- onload="checkCookies()"-->
+	<script type="text/javascript">
+document.write("Document Hello World");
+document.write("Hello Arun");
+document.write(" , This is a Tutorial");
+//alert("this is javascript");
+//console.log("Hello world!");
+</script>
+
+<h1 id="header">header</h1>
+<a id="link">google link</a><br/>
+<button id="button" onClick="alert('you clicked me')"> Click Me</button><br/>
+<button id="button" onClick="handleCLick(this)"> Click Me</button>
+<h1 id="click" onClick="this.innerHTML='OOPS!'">Hi There!</h1><br/>
+<h1 id="click" onClick="changeText(this)">Hi There!</h1><br/>
+
+<img id="image" src="hh.jpg"/>
+
+<ul id="messages">
+<li>Hi</li>
+</ul><br/>
+<input id="textbox" type="text" />
+<button id="button1">send</button><br/> <!-- use id as button1, not button as type is also button, JS will confuse if it is type or by ID -->
+<!-- <button onClick="setTimeout(sayHi2,4000)">Timeout</button><br/>
+<button onClick="setInterval(sayHi2,4000)">Interval</button><br/> -->
+<br/>
+<input id="textbox2" type="text"/>
+<button id="btn">save</button><br/>
+
+<button onClick="document.getElementById('demo').innerHTML=Date()">Click me to display date and time</button><br/>
+<p id="demo"></p>
+
+<button onClick="document.write(2+9)">Try it</button><br/>
+<button onClick="window.print()">Print this page</button><br/>
+
+<p id="demo4">type of</p><br/>
+
+<div id="div">
+<p>p1</p>
+<p>p2</p>
+</div><br/>
+<p class="intro" id="demo10">intro</p>
+<p class="intro1" id="demo9">p2 intro</p>
+
+<form id="form1">
+name:<input type="text"/><br/>
+age:<input type="number"/><br/>
+<button onClick="myfunctionform()">form value</button>
+
+</form>
+<p id="formshow">form show</p>
+
+name:<input type="text" id="fname" onchange="upperCase()"/><br/>
+name:<input type="text" id="fname2" onblur="upperCase1()"/><br/>
+
+<select id="s1" onchange="selectChange()">
+<option>bmw</option>
+<option>Audi</option>
+</select>
+
+<p onmouseover="this.innerHTML='mouseoverelemnt'">mouseover</p>
+<p onmouseout="this.innerHTML='mouseoutelemnt'">mouseout</p>
+<p onmousedown="this.innerHTML='mousedownelemnt'">mousedown</p>
+<p onmouseup="this.innerHTML='mouseupelemnt'">mouseup</p>
+
+name:<input type="text" id="fname3" onfocus="background()"/><br/>
+
+<form id="form2" onsubmit="submit1()">
+name:<input type="text" id="fname4" /><br/>
+<input type="submit" value="submit">
+</form>
+
+<p id="remove"></p><br/>
+<button id="myBtn1">try it</button><br/>
+<button id="myBtn2" onclick="myfunctionremove()">click it</button><br/>
+
+<p id="demo8"></p>
+
+<div id="div1">
+<p id="p1">Arun</p>
+<p id="p2"> Virat</p>
+</div>
+
+
+
+<form onsubmit="radios()">
+<input type="radio" name="btn3" id="scheme1"/>local<br/>
+<input type="radio" name="btn3" id="scheme2"/>STD<br/>
+<input type="radio" name="btn3" id="scheme3"/>fullTalkTime<br/>
+<input type="submit" value="submit"/>
+</form>
+
+<form onsubmit="checkboxes()">
+<input type="checkbox" id="check1"/>btech<br/>
+<input type="checkbox" id="check2"/>bpharmacy<br/>
+<input type="checkbox" id="check3"/>degree<br/>
+<input type="submit" value="submit"/>
+</form>
+
+<form onsubmit="selectOption()">
+<select id="connectionType">
+<option value="Pre" id="preID" name="PreName"> pre</option>
+<option value="Post" id="postID" name="PostName">post</option>
+</select>
+<input type="submit" value="submit"/>
+</form>
+
+<br/>
+<form onsubmit="DatalistOptions()">
+<input list="feedback" id="feedback1" name="feedback2">
+<datalist id="feedback">
+<option value="excellent"></option>
+<option value="Very Good"></option>
+<option value="Good"></option>
+<option value="poor"></option>
+</datalist>
+<input type="submit" value="submit"/>
+</form>
+
+<p id="result">reult</p>
+
+<script src="script4.js"></script>
+
+<h1 style="text-align: center">Index.html</h1>
+<h3>javaScript Tutorials</h3><br/>
+<h3>My name is arun</h3>
+
+</body>
+</html>
